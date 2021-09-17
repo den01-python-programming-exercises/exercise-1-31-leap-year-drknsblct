@@ -1,7 +1,7 @@
 def main():
     #write your code below this line
     
-    year = int(input("Please type in a year: "))
+    year = int(input("Give a year:"))
     leap_year = False
  
     if year % 100 == 0:
