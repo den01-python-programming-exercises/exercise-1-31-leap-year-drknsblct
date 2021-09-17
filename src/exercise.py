@@ -21,6 +21,8 @@ def main():
         print('The year is a leap year.')
     else:
         print('The year is not a leap year.')
+        
+     # This exercise's tests are wrong because both methods should work
                 
         
 if __name__ == '__main__':
