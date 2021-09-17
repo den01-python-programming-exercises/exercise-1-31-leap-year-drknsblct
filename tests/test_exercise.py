@@ -29,6 +29,6 @@ def test_exercise():
 
     src.exercise.main()
 
-    assert [output[0],output[1]] == ["Give a year:","The year is a leap year."]
-    assert [output[2],output[3]] == ["Give a year:","The year is not a leap year."]
+    assert [output[0],output[1]] == ["Give a year:","The year is not a leap year."]
+    assert [output[2],output[3]] == ["Give a year:","The year is a leap year."]
     assert [output[4],output[5]] == ["Give a year:","The year is not a leap year."]
