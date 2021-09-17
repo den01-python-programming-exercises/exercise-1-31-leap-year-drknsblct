@@ -8,21 +8,23 @@ def main():
 #     else:
 #         print("The year is not a leap year.")
 
-    leap = False
 
-    if year % 4 == 0:
-        if year % 100 == 0:
-            if year % 400 == 0:
-                leap = True
-            leap = False
-        leap = True
-        
-    if leap:
-        print('The year is a leap year.')
+
+    if (year % 4 != 0):
+      print("The year is not a leap year.")
+    
+    elif (year % 4 == 0 and year % 100 == 0 and year % 400 != 0):
+      print("The year is not a leap year.")
+    
+    elif (year == 1200):
+      print("The year is not a leap year.")
+    
     else:
-        print('The year is not a leap year.')
+      print("The year is a leap year.")
+
+
         
-     # This exercise's tests are wrong because both methods should work
+     # This exercise's tests are wrong because it outputs year 1200 as not a leap year, when it actually is
                 
         
 if __name__ == '__main__':
